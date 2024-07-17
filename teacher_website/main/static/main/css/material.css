@@ -1,0 +1,70 @@
+
+
+aside {
+   float: right;
+   background: #1a1d1b;
+   width: 33%;
+   padding: 2.5%;
+   height: 89.6vh;
+   color: #fff;
+}
+
+aside h1 {
+   color: #fff;
+   text-align: center;
+}
+
+aside ul a {
+   
+   color: #fff;
+   text-decoration: none;
+   line-height: 2em;
+   font-weight: 500;
+   font-size: 1.2rem;
+}
+
+aside ul a:hover, aside ul a:hover{
+   color: rgb(255, 153, 0);
+   text-decoration: none;
+   transform: scale(1.05);
+}
+
+aside ol a img.a {
+   width: 25px;
+   position: absolute;
+   top: 11.8%;
+   left: 93%;
+   margin: 0.001px;
+   border-radius: 5px;
+   
+}
+
+aside ol a img.b {
+   width: 25px;
+   position: absolute;
+   top: 17%;
+   left: 93%;
+   margin: 0.001px;
+   border-radius: 5px;
+   
+}
+
+aside ol a img.c {
+   width: 25px;
+   position: absolute;
+   top: 22.3%;
+   left: 93%;
+   margin: 0.001px;
+   border-radius: 5px;
+   
+}
+
+aside ol a img.d {
+   width: 25px;
+   position: absolute;
+   top: 28.2%;
+   left: 93%;
+   margin: 0.001px;
+   border-radius: 5px;
+   
+}

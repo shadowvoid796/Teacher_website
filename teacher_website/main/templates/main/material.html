@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+      * {
+       margin: 0;
+       padding: 0;
+      }
+   </style>
+   <meta charset="UTF-8">
+   <title>Разработка уроков/Грамматика/Методическая литература</title>
+   <link rel="stylesheet" href="{% static 'main/css/material.css ' %}">
+</head>
+<body>
+   <aside>
+
+      <h1>Разработки уроков</h1><br>
+      
+      <ul>
+         <a href="{% static 'main/pdf/Дом_мечты.pdf' %}">Дом мечты</a><br>
+         <a href="{% static 'main/pdf/Amazing houses.pdf' %}">Amazing houses</a><br>
+         <a href="{% static 'main/pdf/jeopardy game.pdf' %}">Jeopardy game</a><br>
+         <a href="{% static 'main/pdf/англо-говорящие страны.pdf' %}">Англо-говорящие страны</a>
+      </ul>
+
+      <ol>
+         <a href="{% static 'main/pdf/Дом_мечты.pdf' %} " Download><img src="{% static 'main/img/images.png' %}" alt="" class='a'></a><br>
+         <a href="{% static 'main/pdf/Amazing houses.pdf' %}" Download><img src="{% static 'main/img/images.png' %}" alt="" class='b'></a><br>
+         <a href="{% static 'main/pdf/jeopardy game.pdf' %}" Download><img src="{% static 'main/img/images.png' %}" alt="" class='c'></a><br>
+         <a href="{% static 'main/pdf/англо-говорящие страны.pdf' %}" Download><img src="{% static 'main/img/images.png' %}" alt="" class='d'></a>
+      </ol>
+   </aside>
+   
+</body>
+</html>

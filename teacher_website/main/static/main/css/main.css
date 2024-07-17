@@ -1,0 +1,102 @@
+body {
+   background: rgba(84, 106, 217, 0.841);
+}
+
+div img {
+   width: 300px;
+   position: absolute;
+   top: 7%;
+   left: 2%;
+   margin: 0.001px;
+   border-radius: 15px;
+}
+
+h1 {
+   color: black;
+   position: absolute;
+   top: 10%;
+   left: 30%;
+   margin: 0.001px;
+   -webkit-text-stroke: 0.3px #272727;
+   font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h2 {
+   color: black;
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   margin: 0.001px;
+   font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+p.b {
+   position: absolute;
+   top: 87%;
+   left: 4%;
+   margin: 0.001px;
+   color: black;
+   font-size: 1.1rem;
+   font-weight: 500;
+   font-family: cursive;
+}
+
+button.b {
+   position: absolute;
+   top: 88%;
+   left: 85%;
+   margin: 0.001px;
+   width: 8em; /* Ширина кнопки */
+   height: 2.7em; /* Высота кнопки */
+   border-radius: 20px;
+}
+
+button.a {
+   position: absolute;
+   top: 72%;
+   left: 85%;
+   margin: 0.001px;
+   width: 8em; /* Ширина кнопки */
+   height: 4.8em; /* Высота кнопки */
+   border-radius: 20px;
+}
+
+aside p.c {
+   font-size: 1.3rem;
+   color: rgb(146, 158, 218);
+   text-align: center;
+   font-weight: 600;
+
+}
+
+aside p.a {
+   font-size: 0.9rem;
+   color: rgb(146, 158, 218);
+   font-weight: 400;
+
+}
+
+aside button.b p{
+   margin-top: 0px;
+   font-weight: 600;
+   font-size: 1.3rem;
+   color: blue;
+   font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+aside button.a p{
+   margin-top: 0px;
+   font-weight: 600;
+   font-size: 1.3rem;
+   color: blue;
+   font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+aside {
+   float: right;
+   background: #1a1d1b;
+   width: 20%;
+   padding: 2.5%;
+   height: 100vh;
+   color: #fff;
+}
